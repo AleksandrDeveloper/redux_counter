@@ -1,0 +1,5 @@
+export const ADD_COUNTER_ONE = 'ADD_COUNTER_ONE' 
+export const SUB_COUNTER_ONE = 'SUB_COUNTER_ONE'
+
+export const ADD_COUNTER_TWO = 'ADD_COUNTER_TWO'
+export const SUB_COUNTER_TWO = 'SUB_COUNTER_TWO'
