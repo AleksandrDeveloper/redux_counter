@@ -9,6 +9,10 @@ body {
   height: 100vh;
   padding: 0;
 }
+#root{
+  width: 100%;
+  height: 100vh;
+}  
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -26,4 +30,8 @@ code {
 
 .dark{
   background: #0f0f0f!important;
+}
+
+button{
+  outline: none;
 }

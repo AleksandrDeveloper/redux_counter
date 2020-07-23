@@ -11,12 +11,10 @@ export default (state = initialState,action) => {
             return {
                 counter_one: state.counter_one+1
             }
-            break;
         case SUB_COUNTER_ONE:
             return {
                 counter_one: state.counter_one-1
             }
-            break;
         default:
             return state
             break;

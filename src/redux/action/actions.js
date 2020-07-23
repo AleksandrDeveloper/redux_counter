@@ -1,5 +1,5 @@
-import { ADD_COUNTER_ONE, SUB_COUNTER_ONE } from "./actionType";
-import {ADD_COUNTER_TWO,SUB_COUNTER_TWO} from './actionType'
+import { ADD_COUNTER_ONE, SUB_COUNTER_ONE,ADD_COUNTER_TWO,SUB_COUNTER_TWO } from "./actionType";
+
 
 
  

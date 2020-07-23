@@ -16,7 +16,6 @@ export default (state = initialState,action) => {
             return {
                 counter_two: state.counter_two+20
             }
-            break;
         case SUB_COUNTER_TWO:
             if(action.payload){
                 return {
@@ -26,7 +25,6 @@ export default (state = initialState,action) => {
             return {
                 counter_two: state.counter_two-10
             }
-            break;
         default:
             return state
             break;

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Counter_One from "./components/Counter_One";
-import Counter_Two from "./components/Counter_Two";
+import CounterOne from "./components/Counter_One";
+import CounterTwo from "./components/Counter_Two";
 
 
 function App() {
@@ -17,8 +17,8 @@ function App() {
 
         <div className="mw-100">
 
-          <Counter_One theme={theme} />
-          <Counter_Two theme={theme} /> 
+          <CounterOne theme={theme} />
+          <CounterTwo theme={theme} /> 
         
         </div>
       </div>
